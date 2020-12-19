@@ -7,13 +7,15 @@ body {
 
 /* Custom css */
 .jumbotron {
-    background-color: #e3eafb;
+    background-color: #f7fbfc;
 }
+
 
 .btn {
     color: white;
 }
 
 .progress .progress-bar.active {
+    background-color: #769fcd;
     animation: progress-bar-stripes .3s linear infinite;
 }
