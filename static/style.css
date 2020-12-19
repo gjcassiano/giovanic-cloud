@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
 body {
-  margin: 1px;
+    margin: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Custom css */
+.jumbotron {
+    background-color: #e3eafb;
+}
+
+.btn {
+    color: white;
+}
+
+.progress .progress-bar.active {
+    animation: progress-bar-stripes .3s linear infinite;
 }

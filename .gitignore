@@ -352,3 +352,6 @@ MigrationBackup/
 /node_modules
 
 /.idea/
+
+.history/
+.vscode/

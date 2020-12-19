@@ -7,6 +7,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link rel="icon" href="imgs/smile-beam.svg">
 
     <!-- Bootstrap CSS -->
     <link
@@ -19,23 +20,62 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" crossorigin="anonymous" />
 
-    <title>Hello, world!</title>
+    <!-- My fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+    <title>GIOVANIC</title>
   </head>
   <body>
-    <div class="jumbotron justify-content-center">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
+    <div class="position-relative  jumbotron  fixed-top">
+      <div class="info-name">
+        <h1 class="display-4">GIOVANI CASSIANO</h1>
+        <p class="px-1 lead">
+          Web development
         </p>
+      </div>
+      <hr class="my-">
+      <div class="info-actions" >
+        <!-- Facebook -->
+        <a class="btn btn-light" style="background-color: #3b5998bf"  target="_blank" href="https://www.facebook.com/giovani.cassiano.3/" role="button"
+        ><i class="fa fa-facebook-f"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-light" style="background-color: #9b63bdbf"  target="_blank" href="https://www.instagram.com/gjcassiano/" role="button"
+        ><i class="fa fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-light" style="background-color: #0082cabf" target="_blank" href="https://www.linkedin.com/in/gjcassiano/" role="button"
+        ><i class="fa fa-linkedin"></i
+        ></a>
+
+        <!-- Stack overflow -->
+        <a class="btn btn-light" style="background-color: #ffac44bf" target="_blank" href="https://stackoverflow.com/users/10247892/giovani-cassiano" role="button"
+        ><i class="fa fa-stack-overflow"></i
+        ></a>
+
+
+        <!-- Github -->
+        <a class="btn btn-light" style="background-color: #333333"  target="_blank" href="https://github.com/gjcassiano" role="button"
+        ><i class="fa fa-github"></i
+        ></a>
+        
       </div>
     </div>
 
     <div class="container">
       <div class="row justify-content-center">
         <div class="card">
-          <div class="card-body">
+
+        <div class="card-body">
+          <h1 class="display-4" data-toggle="tooltip" data-placement="top" title="To Be Developed">TBD</h1>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%; background-color:#e3eafb !important;"></div>
+          </div>
+        </div>
+          <!-- <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
             <p class="card-text">
@@ -44,7 +84,7 @@
             </p>
             <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -66,5 +106,16 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+
+      console.log('Hello there!! :D');
+      console.log('You can check this code here ->', 'https://github.com/gjcassiano/giovanic-cloud/tree/main/static') 
+       
+    </script>
+
   </body>
 </html>
